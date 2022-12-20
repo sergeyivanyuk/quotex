@@ -42182,6 +42182,7 @@
                         t = this.protocols,
                         n = {
                             agent: this.agent,
+                            
                             perMessageDeflate: this.perMessageDeflate
                         };
                     n.pfx = this.pfx, n.key = this.key, n.passphrase = this.passphrase, n.cert = this.cert, n.ca = this.ca, n.ciphers = this.ciphers, n.rejectUnauthorized = this.rejectUnauthorized, this.extraHeaders && (n.headers = this.extraHeaders), this.localAddress && (n.localAddress = this.localAddress);
